@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Menu home</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px, small;
+            margin-right: 1px;
+            background-color: rgb(85, 117, 148);
+            padding: 1px;
+        }
+        
+        nav ul {
+            margin: 0;
+            padding: 0;
+            width: 250px;
+            background-color: white;
+        }
+        
+        nav ul li {
+            list-style-type: none;
+            background-color: rgb(24, 71, 116);
+        }
+        
+        nav ul li a {
+            display: block;
+            text-decoration: none;
+            color: rgb(24, 71, 116);
+            background-color: whitesmoke;
+            padding: 20px;
+            margin-bottom: 1px;
+            margin-left: 10px;
+        }
+        
+        nav ul li a:hover {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="tutorial.htm">TUTORIAL</a> </li>
+            <li><a href="wallpaper.html">WALLPAPER</a> </li>
+            <li><a href="blog.html">BLOG</a> </li>
+            <li><a href="history.html">HISTORY</a> </li>
+            <li><a href="company.html">COMPANY</a> </li>
+            <li><a href="login.html">LOGIN</a> </li>
+
+        </ul>
+
+    </nav>
+
+</body>
+
+
+</html>
